@@ -24,7 +24,7 @@ I've had the opportunity to contribute to the security of some of the biggest na
 
 ### 📫 Get in Touch:
 - Feel free to reach out if you want to collaborate on a project, discuss bug bounty hunting, or just chat about tech!
-- You can connect with me through [LinkedIn](https://www.linkedin.com) or drop me an email.
+- You can connect with me through [LinkedIn]([https://www.linkedin.com](https://www.linkedin.com/in/tim-van-moorsel-67141b318/)) or drop me an email: vanmoorseltim@outlook.com.
 
 ### ⚡ Fun Fact:
 When I'm not coding or hunting bugs, you might find me exploring the latest tech trends, learning new programming languages, or just gaming!
