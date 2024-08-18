@@ -9,7 +9,9 @@
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>
 </h2>
 
-I'm **[Unrealisedd](https://github.com/Unrealisedd)**, an 18-year-old student at Fontys University of Applied Sciences, studying IT. I'm passionate about cybersecurity, and I have already made a mark as a **Bug Hunter** by finding vulnerabilities for organizations like NASA, Ubisoft, the British MOD, and the American NSF. I am currently focused on expanding my GitHub repositories while continuing to hunt for bugs and contribute to the community.
+I'm **[Unrealisedd](https://github.com/Unrealisedd)**, an 18-year-old student at Fontys University of Applied Sciences, studying IT.
+I'm passionate about cybersecurity, and I have already made a mark as a **Bug Hunter** by finding vulnerabilities for organizations like NASA, Ubisoft, the British MOD, and the American NSF.
+I am currently focused on expanding my GitHub repositories while continuing to hunt for bugs and contribute to the community.
 <img width="20%" align='right' src="https://github.com/Unrealisedd/Unrealisedd/blob/main/90004000.png">
 I enjoy collaborating with others to learn and share knowledge, and I am always eager to tackle new challenges in the tech world.
 
@@ -27,9 +29,6 @@ I enjoy collaborating with others to learn and share knowledge, and I am always 
 - **Contact**: [vanmoorseltim@outlook.com](mailto:vanmoorseltim@outlook.com) Or Unrealisedd on discord
 
 </details>
-
-
-
 
 ---
 
