@@ -28,6 +28,9 @@ I enjoy collaborating with others to learn and share knowledge, and I am always 
 
 </details>
 
+
+
+
 ---
 
 <h2 id="present_status">Current Focus</h2>
