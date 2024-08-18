@@ -4,7 +4,7 @@
   </a>
 </div>
 
-<img width="28%" align='right' src="https://github.com/Unrealisedd/Unrealisedd/blob/main/90004000.png">
+<img width="20%" align='right' src="https://github.com/Unrealisedd/Unrealisedd/blob/main/90004000.png">
 
 <h2 align="left">
   Hi there! 
@@ -55,7 +55,7 @@ I enjoy collaborating with others to learn and share knowledge, and I am always 
 <details>
   <summary>Buy Me a Coffee</summary>
 
-<p align="center"><img src="https://github.com/your-username/assets/support-image.png" width="80%" height="auto"/></p>
+<p align="center"><img src="https://github.com/Unrealisedd/Unrealisedd/blob/main/0x0-1780947717.png" width="80%" height="auto"/></p>
 
 <p align="center"><a href="https://buymeacoffee.com/Unrealisedd"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/></a></p>
 
