@@ -2,7 +2,7 @@
 
 Hey there! I'm **Unrealisedd**, an 18-year-old IT student at [Fontys University of Applied Sciences](https://fontys.edu/), passionate about cybersecurity and software development. 🚀
 
-### 🧑‍🎓 About Me:
+### About Me:
 - 🎓 Currently pursuing a degree in IT, honing my skills in programming, network security, and ethical hacking.
 - 🕵️‍♂️ Bug hunter with successful reports for organizations like **NASA**, **Ubisoft**, the **British Ministry of Defence (MOD)**, the **American National Science Foundation (NSF)**, and many more.
 - 💼 Always working on expanding my GitHub repositories while actively hunting for vulnerabilities.
