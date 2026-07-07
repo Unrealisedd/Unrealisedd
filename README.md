@@ -1,68 +1,83 @@
 <div align="center">
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=00F5FF&width=435&lines=Aspiring+IT+Pro+and+Bug+Hunter;Always+Learning+and+Growing" alt="Typing SVG" />
-  </a>
+
+# Unrealisedd
+
+**Security Researcher | Vulnerability Hunter | Reverse Engineer**
+
+`12 CVEs` &nbsp; `NASA` &nbsp; `Ubisoft` &nbsp; `British MOD` &nbsp; `NSF`
+
+[![HackerOne](https://img.shields.io/badge/HackerOne-494649?style=flat&logo=hackerone&logoColor=white)](https://hackerone.com/unrealisedd2)
+
 </div>
 
-<h2 align="left">
-  Hi there! 
-  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"/>
-</h2>
+---
 
-I'm **[Unrealisedd](https://github.com/Unrealisedd)**, a 20-year-old student at Fontys University of Applied Sciences, studying IT.
-I'm passionate about cybersecurity, and I have already made a mark as a **Bug Hunter** by finding vulnerabilities for organizations like NASA, Ubisoft, the British MOD, and the American NSF.
-I am currently focused on expanding my GitHub repositories while continuing to hunt for bugs and contribute to the community.
-I enjoy collaborating with others to learn and share knowledge, and I am always eager to tackle new challenges in the tech world.
+I'm a 20-year-old security researcher from the Netherlands, studying IT at Fontys University of Applied Sciences. I find and report vulnerabilities in production systems — from kernel drivers to web applications.
 
-
-
-
-<details>
-  <summary>More About Me</summary>
-
-- **Name**: Unrealisedd
-- **From**: the Netherlands
-- **Role**: IT Student | Bug Hunter | Simple Tool Dev For Myself
-- **Specialties**: Vulnerability Assessment, Bug Hunting, Reverse Engineering
-- **Currently Learning**: Advanced Web Pentesting, Cybersecurity Research
-- **Contact**: [vanmoorseltim@outlook.com](mailto:vanmoorseltim@outlook.com) Or Unrealisedd on discord
-
-</details>
+Currently focused on binary exploitation, Windows kernel-level vulnerability research, and expanding my public research archive.
 
 ---
 
-<h2 id="present_status">Current Focus</h2>
+### Selected Research &nbsp; [![exploitarium](https://img.shields.io/badge/full_archive-exploitarium-blue?style=flat)](https://github.com/Unrealisedd/exploitarium)
 
-👉 Expanding GitHub Repositories with new projects.
-
-👉 Continually learning about cybersecurity, focusing on Web and Mobile vulnerabilities.
-
-👉 Exploring new areas in IT, like cloud security and ethical hacking.
-
----
-
-<h2 id="github_stats">GitHub Stats 📊</h2>
-
-<img align="right" width="44%" src="https://github.com/Unrealisedd/Unrealisedd/blob/main/Python-Emblem-1166847703.png"/>
-
-![Unrealisedd's GitHub stats](https://github-readme-stats.vercel.app/api?username=Unrealisedd&theme=radical)
-![GitHub Streak](https://streak-stats.demolab.com?user=Unrealisedd&theme=radical&card_width=450)
-
----
-
-<h2 id="support_me">Support My Work ☕️</h2>
-
-<details>
-  <summary>Buy Me a Coffee</summary>
-
-<p align="center"><img src="https://github.com/Unrealisedd/Unrealisedd/blob/main/0x0-1780947717.png" width="80%" height="auto"/></p>
-
-<p align="center"><a href="https://buymeacoffee.com/Unrealisedd"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black"/></a></p>
-
-</details>
+| Target | Type | Impact |
+|--------|------|--------|
+| **Windows Defender** | NTLM coercion | Standard user forces SYSTEM credential leak via UNC path |
+| **Windows Defender** | Signature lock bypass | `FILE_SHARE_READ` locks signatures on patched systems (CVE-2026-45498 bypass) |
+| **dam.sys** | Kernel driver bugs (x3) | BSOD + confused deputy + Defender freeze from standard user |
+| **OpenVPN** (ovpn-dco-win) | Kernel UAF | CNG key use-after-free in kernel driver |
+| **Overwolf Updater** | LPE to SYSTEM | Forged Authenticode cert + insecure service DACL |
+| **Safe Exam Browser** | Auth bypass + RCE | Service auth bypass → log injection → RCE as SYSTEM |
+| **Discord Desktop** | RCE | Multiple desktop client RCE attack paths |
+| **Nextcloud** | XXE + SSRF | File read/SSRF + protection bypass chain |
+| **Woodpecker CI** | Pipeline RCE | `\r` bypass of newline sanitization → YAML injection |
+| **spacedesk** | LPE to SYSTEM | Everyone full-control service DACL |
+| **LibreNMS** | SSTI → RCE | Template injection to remote code execution chain |
+| **RetroArch** (libchdr) | Heap overflow | Integer overflow → OOB write on 32-bit via crafted CHD |
 
 ---
 
-<p align="center">
-  <b><i>"Strive not to be a success, but rather to be of value." - Albert Einstein</i></b>
-</p>
+### Repos
+
+<table>
+<tr>
+<td width="50%">
+
+**[exploitarium](https://github.com/Unrealisedd/exploitarium)**
+Public archive of original exploit PoCs and vulnerability research writeups.
+
+</td>
+<td width="50%">
+
+**[Methodology](https://github.com/Unrealisedd/Methodology)**
+My pentesting methodology — recon through exploitation.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**[BAC-workflow](https://github.com/Unrealisedd/BAC-workflow)**
+Automated broken access control testing.
+
+</td>
+<td width="50%">
+
+**[Recon-workflow](https://github.com/Unrealisedd/Recon-workflow)**
+Recon automation pipeline for bug bounty.
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Unrealisedd&theme=github_dark&hide_border=true&hide_title=true&show_icons=true&count_private=true)
+
+</div>
+
+<div align="center">
+<sub>vanmoorseltim@outlook.com</sub>
+</div>
