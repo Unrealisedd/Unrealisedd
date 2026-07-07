@@ -39,38 +39,10 @@ Currently focused on binary exploitation, Windows kernel-level vulnerability res
 
 ---
 
-### Repos
-
-<table>
-<tr>
-<td width="50%">
-
-**[exploitarium](https://github.com/Unrealisedd/exploitarium)**
-Public archive of original exploit PoCs and vulnerability research writeups.
-
-</td>
-<td width="50%">
-
-**[Methodology](https://github.com/Unrealisedd/Methodology)**
-My pentesting methodology — recon through exploitation.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-**[BAC-workflow](https://github.com/Unrealisedd/BAC-workflow)**
-Automated broken access control testing.
-
-</td>
-<td width="50%">
-
-**[Recon-workflow](https://github.com/Unrealisedd/Recon-workflow)**
-Recon automation pipeline for bug bounty.
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <i>"The quieter you become, the more you are able to hear."</i><br>
+  <sub>— Kali Linux (inspired by Rumi)</sub>
+</p>
 
 ---
 
