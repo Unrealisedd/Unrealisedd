@@ -40,8 +40,8 @@ Currently focused on binary exploitation, Windows kernel-level vulnerability res
 ---
 
 <p align="center">
-  <i>"The quieter you become, the more you are able to hear."</i><br>
-  <sub>— Kali Linux (inspired by Rumi)</sub>
+  <i>"You can't secure what you don't understand."</i><br>
+  <sub>— Bruce Schneier</sub>
 </p>
 
 ---
