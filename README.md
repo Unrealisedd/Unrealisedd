@@ -46,14 +46,6 @@ Currently focused on binary exploitation, Windows kernel-level vulnerability res
 
 ---
 
-<div align="center">
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Unrealisedd&theme=github_dark&hide_border=true&hide_title=true&show_icons=true&count_private=true)
-
-</div>
-
----
-
 <details>
   <summary>Support My Work</summary>
 
