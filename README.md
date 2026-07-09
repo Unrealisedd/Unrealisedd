@@ -14,7 +14,7 @@
 
 ---
 
-I'm a 20-year-old security researcher from the Netherlands, studying IT at Fontys University of Applied Sciences. I find and report vulnerabilities in production systems — from kernel drivers to web applications.
+I'm a 20-year-old security researcher from the Netherlands, studying IT at Fontys University of Applied Sciences. I find and report vulnerabilities in production systems, from kernel drivers to web applications.
 
 Currently focused on binary exploitation, Windows kernel-level vulnerability research, and expanding my public research archive.
 
