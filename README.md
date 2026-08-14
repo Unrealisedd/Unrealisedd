@@ -16,7 +16,13 @@
 
 I'm a 20-year-old security researcher from the Netherlands. I find and report vulnerabilities in production systems, from kernel drivers to web applications.
 
-Currently focused on binary exploitation, Windows kernel-level vulnerability research, and expanding my public research archive.
+Currently focused on Windows kernel and Defender vulnerability research. Recent work published in [nightfall](https://github.com/Unrealisedd/nightfall).
+
+---
+
+### Featured Project
+
+[**nightfall**](https://github.com/Unrealisedd/nightfall) -- windows security research framework built around Defender and kernel vulnerability research. includes writeups on 4 kernel driver bugs in dam.sys, Defender primitive abuse (D1-D5), and ~60 post-exploitation techniques. pure Python, no dependencies.
 
 ---
 
@@ -24,9 +30,9 @@ Currently focused on binary exploitation, Windows kernel-level vulnerability res
 
 | Target | Type | Impact |
 |--------|------|--------|
+| **dam.sys** | Kernel driver bugs (x4) | BSOD + confused deputy + info leak + session freeze from standard user |
 | **Windows Defender** | NTLM coercion | Standard user forces SYSTEM credential leak via UNC path |
 | **Windows Defender** | Signature lock bypass | `FILE_SHARE_READ` locks signatures on patched systems |
-| **dam.sys** | Kernel driver bugs (x3) | BSOD + confused deputy + Defender freeze from standard user |
 | **OpenVPN** (ovpn-dco-win) | Kernel UAF | CNG key use-after-free in kernel driver |
 | **Overwolf Updater** | LPE to SYSTEM | Forged Authenticode cert + insecure service DACL |
 | **Safe Exam Browser** | Auth bypass + RCE | Service auth bypass → log injection → RCE as SYSTEM |
