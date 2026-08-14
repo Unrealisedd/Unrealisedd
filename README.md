@@ -16,13 +16,7 @@
 
 I'm a 20-year-old security researcher from the Netherlands. I find and report vulnerabilities in production systems, from kernel drivers to web applications.
 
-Currently focused on Windows kernel and Defender vulnerability research. Recent work published in [nightfall](https://github.com/Unrealisedd/nightfall).
-
----
-
-### Featured Project
-
-[**nightfall**](https://github.com/Unrealisedd/nightfall) -- windows security research framework built around Defender and kernel vulnerability research. includes writeups on 4 kernel driver bugs in dam.sys, Defender primitive abuse (D1-D5), and ~60 post-exploitation techniques. pure Python, no dependencies.
+Currently focused on binary exploitation, Windows kernel-level vulnerability research, and expanding my public research archive.
 
 ---
 
@@ -30,13 +24,23 @@ Currently focused on Windows kernel and Defender vulnerability research. Recent 
 
 | Target | Type | Impact |
 |--------|------|--------|
+| **QEMU** | CxL Type3 mailbox escape | Guest-to-host VM escape via crafted mailbox command |
 | **dam.sys** | Kernel driver bugs (x4) | BSOD + confused deputy + info leak + session freeze from standard user |
 | **Windows Defender** | NTLM coercion | Standard user forces SYSTEM credential leak via UNC path |
 | **Windows Defender** | Signature lock bypass | `FILE_SHARE_READ` locks signatures on patched systems |
+| **Firefox** | IPC sandbox escape | Unvalidated `AddCertException` → silent MITM on arbitrary hostnames |
+| **Firefox** | Backup NSS RCE | NSS library hijack via backup restore flow |
+| **Mosquitto** | Pre-auth RCE | Empty WebSocket frame heap overwrite → code execution |
+| **MySQL Router** | OAuth cache ATO | Display-name cache collision → account takeover (CVSS 9.1) |
+| **Ghidra** | RCE | Arbitrary code execution in Ghidra 12.1.2 |
+| **OpenSSH** | Agent lock bypass | Authentication provider bypass on locked agent |
+| **Docker** | Container escape | `docker cp` copyout destination path escape |
 | **OpenVPN** (ovpn-dco-win) | Kernel UAF | CNG key use-after-free in kernel driver |
 | **Overwolf Updater** | LPE to SYSTEM | Forged Authenticode cert + insecure service DACL |
 | **Safe Exam Browser** | Auth bypass + RCE | Service auth bypass → log injection → RCE as SYSTEM |
+| **System Informer** | LPE | Trusted host escalation via phsvc |
 | **Discord Desktop** | RCE | Multiple desktop client RCE attack paths |
+| **Keep** | Unauth RCE | Provider invoke chain → unauthenticated remote code execution |
 | **Nextcloud** | XXE + SSRF | File read/SSRF + protection bypass chain |
 | **Woodpecker CI** | Pipeline RCE | `\r` bypass of newline sanitization → YAML injection |
 | **spacedesk** | LPE to SYSTEM | Everyone full-control service DACL |
