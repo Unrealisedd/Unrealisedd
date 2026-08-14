@@ -24,24 +24,22 @@ Currently focused on binary exploitation, Windows kernel-level vulnerability res
 
 | Target | Type | Impact |
 |--------|------|--------|
-| **QEMU** | CxL Type3 mailbox escape | Guest-to-host VM escape via crafted mailbox command |
 | **dam.sys** | Kernel driver bugs (x4) | BSOD + confused deputy + info leak + session freeze from standard user |
 | **Windows Defender** | NTLM coercion | Standard user forces SYSTEM credential leak via UNC path |
 | **Windows Defender** | Signature lock bypass | `FILE_SHARE_READ` locks signatures on patched systems |
 | **Firefox** | IPC sandbox escape | Unvalidated `AddCertException` → silent MITM on arbitrary hostnames |
-| **Firefox** | Backup NSS RCE | NSS library hijack via backup restore flow |
 | **Mosquitto** | Pre-auth RCE | Empty WebSocket frame heap overwrite → code execution |
 | **MySQL Router** | OAuth cache ATO | Display-name cache collision → account takeover (CVSS 9.1) |
-| **Ghidra** | RCE | Arbitrary code execution in Ghidra 12.1.2 |
-| **OpenSSH** | Agent lock bypass | Authentication provider bypass on locked agent |
-| **Docker** | Container escape | `docker cp` copyout destination path escape |
+| **Keep** | Unauth RCE | Provider invoke chain → unauthenticated remote code execution |
 | **OpenVPN** (ovpn-dco-win) | Kernel UAF | CNG key use-after-free in kernel driver |
 | **Overwolf Updater** | LPE to SYSTEM | Forged Authenticode cert + insecure service DACL |
 | **Safe Exam Browser** | Auth bypass + RCE | Service auth bypass → log injection → RCE as SYSTEM |
-| **System Informer** | LPE | Trusted host escalation via phsvc |
+| **StorSvc** | DLL hijack LPE | `LoadLibraryW` without `LOAD_LIBRARY_SEARCH_SYSTEM32` → SYSTEM |
 | **Discord Desktop** | RCE | Multiple desktop client RCE attack paths |
-| **Keep** | Unauth RCE | Provider invoke chain → unauthenticated remote code execution |
 | **Nextcloud** | XXE + SSRF | File read/SSRF + protection bypass chain |
+| **Wazuh** | Stack BOF + DoS | Stack buffer overflow + SCA denial of service |
+| **n8n** | SSRF | Server-side request forgery via OAuth2 callback |
+| **Fluent Bit** | Pre-auth DoS | collectd parser infinite loop from unauthenticated input |
 | **Woodpecker CI** | Pipeline RCE | `\r` bypass of newline sanitization → YAML injection |
 | **spacedesk** | LPE to SYSTEM | Everyone full-control service DACL |
 | **LibreNMS** | SSTI → RCE | Template injection to remote code execution chain |
