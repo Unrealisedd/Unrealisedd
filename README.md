@@ -44,6 +44,11 @@ Currently focused on binary exploitation, Windows kernel-level vulnerability res
 | **spacedesk** | LPE to SYSTEM | Everyone full-control service DACL |
 | **LibreNMS** | SSTI → RCE | Template injection to remote code execution chain |
 | **RetroArch** (libchdr) | Heap overflow | Integer overflow → OOB write on 32-bit via crafted CHD |
+| **BitLocker** (bootmgfw.efi) | OOB read DoS | Type-0x15 count mismatch → persistent boot brick + data loss |
+| **IncrediBuild** | gRPC preauth chain | NTLM coercion + crashes + XOR key cracked + RSA key exposed |
+| **Paho MQTT** | WebSocket UAF | Queued-frame use-after-free → allocator overlap + PC control |
+| **NanoMQ** | cJSON UAF | Rule republish double-free: 5/5 ASan + 5/5 release crash |
+| **Samba** | DNS talloc UAF | Forwarded MX response talloc parent UAF → deterministic abort |
 
 ---
 
